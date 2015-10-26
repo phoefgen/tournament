@@ -1,0 +1,14 @@
+This code was written for the Udacity Relational Database class. 
+
+To install this code:
+
+1) Install Vagrant and VirtualBox
+2) Clone the fullstack-nanodegree-vm repository (http://github.com/udacity/fullstack-nanodegree-vm)
+3) Clone this repo, into your vagrant shared folder. 
+3) Launch the Vagrant VM.
+4) Initialise the database, as defined in tournament.sql
+    a) Change to the Vagrant shared directory, where this repo is being shared. 
+    b) Open the postgres CLI with "psql"
+    c) Import the database file with "\i tournament.sql"
+5) No front end exists for this project. The Udacity Unit Test suite is provided to demonstrate functionality.
+   It can be run with "python tournament_test.py" from the Vagrant folder inside the Vagrant VM. 
